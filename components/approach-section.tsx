@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle2, Lightbulb, Rocket } from "lucide-react"
+import { motion } from "framer-motion";
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle2, Lightbulb, Rocket } from "lucide-react";
 
 const phases = [
   {
@@ -41,7 +41,7 @@ const phases = [
       "Ongoing maintenance and support options",
     ],
   },
-]
+];
 
 export default function ApproachSection() {
   return (
@@ -54,12 +54,12 @@ export default function ApproachSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-gray-300 to-indigo-500">
             My Approach
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
-            I follow a structured methodology to ensure your project is delivered successfully from concept to
-            completion.
+            I follow a structured methodology to ensure your project is
+            delivered successfully from concept to completion.
           </p>
         </motion.div>
 
@@ -75,8 +75,12 @@ export default function ApproachSection() {
               <Card className="bg-white/[0.03] border-white/[0.08] h-full hover:transform hover:scale-[1.02] transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex flex-col items-center text-center mb-6">
-                    <div className="mb-4 p-3 rounded-full bg-white/[0.03]">{phase.icon}</div>
-                    <h3 className="text-xl font-semibold text-white mb-2">{phase.title}</h3>
+                    <div className="mb-4 p-3 rounded-full bg-white/[0.03]">
+                      {phase.icon}
+                    </div>
+                    <h3 className="text-xl font-semibold text-white mb-2">
+                      {phase.title}
+                    </h3>
                     <p className="text-white/60 text-sm">{phase.description}</p>
                   </div>
                   <ul className="space-y-2">
@@ -94,5 +98,5 @@ export default function ApproachSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

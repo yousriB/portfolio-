@@ -162,12 +162,6 @@ export default function HeroGeometric({
             animate="visible"
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8 md:mb-12"
           >
-            <Image
-              src="https://kokonutui.com/logo.svg"
-              alt="Kokonut UI"
-              width={20}
-              height={20}
-            />
             <span className="text-sm text-white/60 tracking-wide">{badge}</span>
           </motion.div>
 
@@ -177,7 +171,7 @@ export default function HeroGeometric({
             initial="hidden"
             animate="visible"
           >
-            <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 md:mb-8 tracking-tight">
+            <h1 className="text-7xl md:text-8xl font-bold mb-6 md:mb-8 tracking-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/80">
                 {title1}
               </span>

@@ -11,7 +11,7 @@ const projects = [
   {
     title: "DreamHouse Luxury Estates",
     description:
-      "A sleek real estate site showcasing luxury properties with search filters and a blog for market insights.",
+      "A sleek real estate website showcasing luxury properties with search filters and a blog for market insights.",
     image: "/projects/houses.png",
     tags: [
       "React",
@@ -21,12 +21,12 @@ const projects = [
       "Search Filters",
     ],
     liveUrl: "https://dreamhouse-elegance.vercel.app/",
-    githubUrl: "https://github.com/yousriB/dreamhouse-luxury",
+    githubUrl: "https://github.com/yousriB/dreamhouse-elegance-frontend",
   },
   {
     title: "SolarTech",
     description:
-      "A clean site promoting solar solutions with product showcases and easy quote requests.",
+      "A clean and modern website promoting solar energy solutions with product displays and easy quote requests.",
     image: "/projects/solair.png",
     tags: [
       "React",
@@ -36,12 +36,12 @@ const projects = [
       "Lead Generation",
     ],
     liveUrl: "https://solartech-web-oasis.vercel.app/",
-    githubUrl: "https://github.com/yousriB/solartech",
+    githubUrl: "https://github.com/yousriB/solartech-web-oasis",
   },
   {
-    title: "مركز عليسة للتميز المهني",
+    title: "Ellisa Center for Professional Excellence",
     description:
-      "موقع مركز تكوين مهني لتحويل الطموح إلى نجاح بطريقة بسيطة وجذابة.",
+      "A training center website that transforms ambition into success with a simple and attractive design.",
     image: "/projects/ellisa.png",
     tags: ["Next.js", "Tailwind CSS", "Formation", "Responsive Design"],
     liveUrl: "https://ellisa-three.vercel.app/",
@@ -50,7 +50,7 @@ const projects = [
   {
     title: "ForumAuto Gabès",
     description:
-      "موقع معرض سيارات حديث لعرض مجموعة واسعة من السيارات مع تفاصيل كاملة وتصميم أنيق.",
+      "A modern car exhibition website presenting a wide selection of cars with full details and elegant design.",
     image: "/projects/forum.png",
     tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Car Showcase"],
     liveUrl: "https://autogabes.vercel.app/",
@@ -59,16 +59,16 @@ const projects = [
   {
     title: "Bus Management System",
     description:
-      "منصة لإدارة النقل بالحافلات تشمل تتبع المسارات وجدولة الرحلات وبيانات السائقين.",
+      "A platform for managing bus transport including route tracking, trip scheduling, and driver data.",
     image: "/projects/bus.png",
     tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Transportation"],
     liveUrl: "https://busses-pi.vercel.app/",
     githubUrl: "https://github.com/yousriB/busses",
   },
   {
-    title: "Gaming Project",
+    title: "Gaming Platform",
     description:
-      "منصة ألعاب تفاعلية مع رسوم متحركة سلسة وتجربة مستخدم ديناميكية.",
+      "An interactive gaming platform with smooth animations and a dynamic user experience.",
     image: "/projects/gaming.png",
     tags: [
       "Next.js",
@@ -83,7 +83,7 @@ const projects = [
   {
     title: "Elegant Events",
     description:
-      "موقع تخطيط فعاليات أنيق يعرض الخدمات والشهادات ونظام حجز استشارات.",
+      "A stylish event planning website showcasing services, testimonials, and a consultation booking system.",
     image: "/projects/wedding.png",
     tags: [
       "React",
@@ -93,12 +93,12 @@ const projects = [
       "Event Booking",
     ],
     liveUrl: "https://eventsplanning.vercel.app/",
-    githubUrl: "https://github.com/yousriB/elegant-events",
+    githubUrl: "https://github.com/yousriB/Events",
   },
   {
     title: "Serenity Beauty Salon",
     description:
-      "موقع صالون تجميل فاخر يعرض الخدمات ويتيح الحجز بسهولة بتصميم هادئ وجذاب.",
+      "A luxury beauty salon website that displays services and allows easy appointment booking with a calm, attractive design.",
     image: "/projects/sallon.png",
     tags: [
       "React",
@@ -108,12 +108,12 @@ const projects = [
       "Booking System",
     ],
     liveUrl: "https://beauty-salon-delta-lilac.vercel.app/",
-    githubUrl: "https://github.com/yousriB/serenity-beauty",
+    githubUrl: "https://github.com/yousriB/BeautySalon",
   },
   {
     title: "SmileWell Dental Clinic",
     description:
-      "موقع عيادة أسنان حديث يعرض الخدمات والفريق مع نظام حجز مواعيد بسيط وموثوق.",
+      "A modern dental clinic website featuring services, team profiles, and a simple, reliable appointment booking system.",
     image: "/projects/dental.png",
     tags: [
       "React",
@@ -123,12 +123,12 @@ const projects = [
       "Booking System",
     ],
     liveUrl: "https://smile-well.vercel.app/",
-    githubUrl: "https://github.com/yousriB/smilewell-dental",
+    githubUrl: "https://github.com/yousriB/SmileWell",
   },
   {
-    title: "تمور تونس (Tunisian Dates)",
+    title: "Tunisian Dates (Tamr Tounes)",
     description:
-      "موقع يعرض أجود أنواع التمور التونسية الأصيلة مع قصة المنتج وخيارات طلب سهلة.",
+      "A website showcasing premium, authentic Tunisian dates with the product story and easy order options.",
     image: "/projects/dagla.png",
     tags: [
       "React",
@@ -138,7 +138,7 @@ const projects = [
       "Multilingual",
     ],
     liveUrl: "https://dagla.vercel.app/",
-    githubUrl: "https://github.com/yousriB/tmour-tunisia",
+    githubUrl: "https://github.com/yousriB/dagla",
   },
 ];
 
@@ -164,9 +164,9 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="py-20 px-10 bg-gradient-to-b from-[#050505] to-[#050505] overflow-hidden"
+      className="py-20 bg-gradient-to-b from-[#050505] to-[#050505] overflow-hidden"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-gray-300 to-indigo-500">
             Kind Words from Satisfied Clients
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
@@ -87,7 +87,7 @@ export default function TestimonialsSection() {
             }}
           >
             {allTestimonials.map((testimonial, index) => (
-              <div key={index} className="flex-shrink-0 sm:w-1/3 w-1/2 px-4">
+              <div key={index} className="flex-shrink-0 sm:w-1/3 w-full px-4">
                 <Card className="bg-white/[0.03] border-white/[0.08] h-full">
                   <CardContent className="p-6">
                     <Quote className="h-8 w-8 text-indigo-400 mb-4 opacity-50" />
@@ -95,14 +95,14 @@ export default function TestimonialsSection() {
                       {testimonial.quote}
                     </p>
                     <div className="flex items-center">
-                      <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
+                      {/* <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
                         <Image
                           src={testimonial.avatar || "/placeholder.svg"}
                           alt={testimonial.name}
                           fill
                           className="object-cover"
                         />
-                      </div>
+                      </div> */}
                       <div>
                         <h4 className="text-white font-medium">
                           {testimonial.name}

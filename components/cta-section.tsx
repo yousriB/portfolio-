@@ -15,7 +15,7 @@ export default function CtaSection() {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-gray-300 to-indigo-500">
             Ready to take your digital presence to the next level?
           </h2>
           <p className="text-white/60 mb-8 text-lg">
