@@ -24,6 +24,15 @@ const projects = [
     githubUrl: "https://github.com/yousriB/dreamhouse-elegance-frontend",
   },
   {
+    title: "Modern Bank",
+    description:
+      "A clean, modern neobank website featuring intuitive navigation, secure account management, and interactive tools like calculators and insightful customer testimonials.",
+    image: "/projects/bank.png",
+    tags: ["React", "Tailwind CSS", "Responsive Design", "Banking"],
+    liveUrl: "https://bankmodern.vercel.app/",
+    githubUrl: "https://github.com/yousriB/bank_modern_app",
+  },
+  {
     title: "SolarTech",
     description:
       "A clean and modern website promoting solar energy solutions with product displays and easy quote requests.",
