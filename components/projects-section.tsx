@@ -9,6 +9,72 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
+    title: "Cocktails GSAP Website",
+    description:
+      "A cinematic GSAP-powered React site with scroll-triggered video, parallax effects, and polished transitions across multiple interactive sections.",
+    image: "/projects/cocktail.png",
+    tags: ["React", "Tailwind CSS", "GSAP", "ScrollTrigger", "Parallax"],
+    liveUrl: "https://cocktails-bice.vercel.app/",
+    githubUrl: "https://github.com/yousriB/gsap_cocktails",
+  },
+  {
+    title: "Gaming Platform",
+    description:
+      "An interactive gaming platform with smooth animations and a dynamic user experience.",
+    image: "/projects/gaming.png",
+    tags: [
+      "Next.js",
+      "Framer Motion",
+      "Tailwind CSS",
+      "Animation",
+      "Responsive Design",
+    ],
+    liveUrl: "https://gaming-two-teal.vercel.app/",
+    githubUrl: "https://github.com/yousriB/gaming",
+  },
+  {
+    title: "Ellisa Center for Professional Excellence",
+    description:
+      "A training center website that transforms ambition into success with a simple and attractive design.",
+    image: "/projects/ellisa.png",
+    tags: ["Next.js", "Tailwind CSS", "Formation", "Responsive Design"],
+    liveUrl: "https://ellisa-three.vercel.app/",
+    githubUrl: "https://github.com/yousriB/Ellisa",
+  },
+  {
+    title: "Modern Bank",
+    description:
+      "A clean, modern neobank website featuring intuitive navigation, secure account management, and interactive tools like calculators and insightful customer testimonials.",
+    image: "/projects/bank.png",
+    tags: ["React", "Tailwind CSS", "Responsive Design", "Banking"],
+    liveUrl: "https://bankmodern.vercel.app/",
+    githubUrl: "https://github.com/yousriB/bank_modern_app",
+  },
+  {
+    title: "ForumAuto Gabès",
+    description:
+      "A modern car exhibition website presenting a wide selection of cars with full details and elegant design.",
+    image: "/projects/forum.png",
+    tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Car Showcase"],
+    liveUrl: "https://autogabes.vercel.app/",
+    githubUrl: "https://github.com/yousriB/autogabes",
+  },
+  {
+    title: "SmileWell Dental Clinic",
+    description:
+      "A modern dental clinic website featuring services, team profiles, and a simple, reliable appointment booking system.",
+    image: "/projects/smille.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Healthcare",
+      "Booking System",
+    ],
+    liveUrl: "https://smile-well.vercel.app/",
+    githubUrl: "https://github.com/yousriB/SmileWell",
+  },
+  {
     title: "DreamHouse Luxury Estates",
     description:
       "A sleek real estate website showcasing luxury properties with search filters and a blog for market insights.",
@@ -22,15 +88,6 @@ const projects = [
     ],
     liveUrl: "https://dreamhouse-elegance.vercel.app/",
     githubUrl: "https://github.com/yousriB/dreamhouse-elegance-frontend",
-  },
-  {
-    title: "Modern Bank",
-    description:
-      "A clean, modern neobank website featuring intuitive navigation, secure account management, and interactive tools like calculators and insightful customer testimonials.",
-    image: "/projects/bank.png",
-    tags: ["React", "Tailwind CSS", "Responsive Design", "Banking"],
-    liveUrl: "https://bankmodern.vercel.app/",
-    githubUrl: "https://github.com/yousriB/bank_modern_app",
   },
   {
     title: "SolarTech",
@@ -48,24 +105,6 @@ const projects = [
     githubUrl: "https://github.com/yousriB/solartech-web-oasis",
   },
   {
-    title: "Ellisa Center for Professional Excellence",
-    description:
-      "A training center website that transforms ambition into success with a simple and attractive design.",
-    image: "/projects/ellisa.png",
-    tags: ["Next.js", "Tailwind CSS", "Formation", "Responsive Design"],
-    liveUrl: "https://ellisa-three.vercel.app/",
-    githubUrl: "https://github.com/yousriB/Ellisa",
-  },
-  {
-    title: "ForumAuto Gabès",
-    description:
-      "A modern car exhibition website presenting a wide selection of cars with full details and elegant design.",
-    image: "/projects/forum.png",
-    tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Car Showcase"],
-    liveUrl: "https://autogabes.vercel.app/",
-    githubUrl: "https://github.com/yousriB/autogabes",
-  },
-  {
     title: "Bus Management System",
     description:
       "A platform for managing bus transport including route tracking, trip scheduling, and driver data.",
@@ -73,21 +112,6 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Transportation"],
     liveUrl: "https://busses-pi.vercel.app/",
     githubUrl: "https://github.com/yousriB/busses",
-  },
-  {
-    title: "Gaming Platform",
-    description:
-      "An interactive gaming platform with smooth animations and a dynamic user experience.",
-    image: "/projects/gaming.png",
-    tags: [
-      "Next.js",
-      "Framer Motion",
-      "Tailwind CSS",
-      "Animation",
-      "Responsive Design",
-    ],
-    liveUrl: "https://gaming-two-teal.vercel.app/",
-    githubUrl: "https://github.com/yousriB/gaming",
   },
   {
     title: "Elegant Events",
@@ -118,21 +142,6 @@ const projects = [
     ],
     liveUrl: "https://beauty-salon-delta-lilac.vercel.app/",
     githubUrl: "https://github.com/yousriB/BeautySalon",
-  },
-  {
-    title: "SmileWell Dental Clinic",
-    description:
-      "A modern dental clinic website featuring services, team profiles, and a simple, reliable appointment booking system.",
-    image: "/projects/dental.png",
-    tags: [
-      "React",
-      "Tailwind CSS",
-      "Responsive Design",
-      "Healthcare",
-      "Booking System",
-    ],
-    liveUrl: "https://smile-well.vercel.app/",
-    githubUrl: "https://github.com/yousriB/SmileWell",
   },
   {
     title: "Tunisian Dates (Tamr Tounes)",
