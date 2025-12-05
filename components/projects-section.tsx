@@ -9,6 +9,15 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
+  title: "Quiter FB Moto – Electric Scooter Website",
+  description:
+    "A modern and high-performance electric scooter website built with Next.js, featuring smooth animations, dynamic product displays, and optimized user experience for showcasing professional scooter models.",
+  image: "/projects/quiter-fb-moto.png",
+  tags: ["Next.js", "Tailwind CSS", "Responsive Design", "Product Showcase", "Animation"],
+  liveUrl: "https://minimalistbike.vercel.app/",
+  githubUrl: "https://github.com/yousriB/minimalistbike",
+},
+  {
     title: "Cocktails GSAP Website",
     description:
       "A cinematic GSAP-powered React site with scroll-triggered video, parallax effects, and polished transitions across multiple interactive sections.",
